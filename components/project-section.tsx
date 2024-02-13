@@ -91,7 +91,7 @@ const ProjectSection = () => {
                                 </div>
                                 <div className="mt-8 md:w-1/2">
                                     <h1 className="text-4xl font-bold mb-6 text-center md:text-left lg:text-left">{project.name}</h1>
-                                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                                    <p className="text-xl leading-7 mb-4 text-neutral-500 dark:text-neutral-300">
                                         {project.description}
                                     </p>
                                     <div className="flex flex-row align-bottom space-x-4">
@@ -120,7 +120,7 @@ const ProjectSection = () => {
                     </div>
                 )
             })}
-                                    <p className="text-xl text-center">and more...</p>
+            <p className="text-xl text-center">and more...</p>
         </div>
     </section>
   )

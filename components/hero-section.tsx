@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link  from 'next/link'
 import { FaGithub, FaLinkedin  } from "react-icons/fa"
 import { MdOutlineAttachEmail } from "react-icons/md";
-import {HiArrowDown} from "react-icons/hi"
+import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
   return (
@@ -27,25 +27,25 @@ const HeroSection = () => {
                href='https://github.com/syamimirfan'
                target='_blank'             
               >
-               <FaGithub size={40} className="hover:translate-y-1 transition-transform cursor-pointer"/>
+               <FaGithub size={30} className="hover:translate-y-1 transition-transform cursor-pointer"/>
               </Link>
               <Link
                href='https://www.linkedin.com/in/syamim-irfan-8a84151ba/'
                target='_blank'             
               >
-               <FaLinkedin size={40} className="hover:translate-y-1 transition-transform cursor-pointer"/>
+               <FaLinkedin size={30} className="hover:translate-y-1 transition-transform cursor-pointer"/>
               </Link>
               <Link
                href='mailto:syamimirfan59@gmail.com'
                target='_blank'             
               >
-               <MdOutlineAttachEmail size={40} className="hover:translate-y-1 transition-transform cursor-pointer"/>
+               <MdOutlineAttachEmail size={30} className="hover:translate-y-1 transition-transform cursor-pointer"/>
               </Link>
               </div>
            </div>
         </div>
          <div className="flex flex-row justify-center">
-         <HiArrowDown size={40} className="animate-bounce" />
+         <HiArrowDown size={30} className="animate-bounce" />
          </div>
     </section>
   )

@@ -27,7 +27,7 @@ const currentTheme = theme === "system" ? systemTheme : theme
 const [navbar,setNavbar] = useState(false);
 
   return (
-    <header className={`w-full mx-auto px-4 ${currentTheme === "dark" ? "bg-stone-900 border-b border-stone-900" : "bg-white"} shadow fixed top-0 z-50 sm:px-20`}>
+    <header className="w-full mx-auto  px-4 sm:px-20 fixed top-0 z-50 shadow bg-white dark:bg-stone-900 dark:border-b dark:border-stone-600">
         <div className="justify-between md:items-center md:flex">
             <div>
                 <div className="flex items-center justify-between py-3">
