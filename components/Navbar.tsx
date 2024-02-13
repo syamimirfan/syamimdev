@@ -57,7 +57,7 @@ const [navbar,setNavbar] = useState(false);
                          key={idx} 
                          href={item.URL}              
                          className={
-                          "block lg:inline-block  hover:text-neutral-500 dark:text-neutral-100 cursor-pointer"
+                         "block lg:inline-block text-neutral-900  dark:hover:text-neutral-400  hover:text-neutral-400 dark:text-neutral-100"
                          }
                          onClick={() => setNavbar(!navbar)}
                         >{item.label}
