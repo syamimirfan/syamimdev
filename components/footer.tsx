@@ -10,7 +10,11 @@ const Footer = () => {
         <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-300 border-0"/>
         <div className="mx-auto p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
             <div className="flex flex-row items-center justify-center space-x-1 text-neutral-400 dark:text-neutral-400">
-               © 2024 Muhamad Syamim Irfan <a href="/" className="hover:underline"></a>
+              {/* 
+               &copy; is for ©
+               new Date().getFullYear() is for update the year for every year
+              */}
+               &copy; {new Date().getFullYear()} Muhamad Syamim Irfan <a href="/" className="hover:underline"></a>
             </div>
             <div className="flex flex-row items-center justify-center space-x-2 mb-1">
                 <a href="https://github.com/syamimirfan" rel="noreferer" target='_blank'>
