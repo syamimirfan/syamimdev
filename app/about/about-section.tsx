@@ -111,7 +111,7 @@ const About_Section = () => {
                         Resume
                     </h1>
                     <Link
-                     href="https://drive.google.com/file/d/1Ee9eYldTmABXsAeR4-9bKFSbL4gawJX_/view?usp=sharing"
+                     href="https://drive.google.com/file/d/1XHb7A56iVJlGRnXRYmY4ZFFSuV7tW5-Z/view?usp=sharing"
                      target="_blank"
                     >
                         <Image src="/assets/download-button.png" alt='download-button.png' width={300} height={300} className="mx-auto md:mx-0"/>
