@@ -115,6 +115,16 @@ const About_Section = () => {
                      target="_blank"
                     >
                         <Image src="/assets/download-button.png" alt='download-button.png' width={300} height={300} className="mx-auto md:mx-0"/>
+                      </Link>
+                    <br />
+                     <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
+                        PPT Interview
+                    </h1>
+                    <Link
+                     href="https://drive.google.com/file/d/1psxhMW3esSWBTiHjtbi23rVOJLvgoQRe/view?usp=sharing"
+                     target="_blank"
+                    >
+                        <Image src="/assets/download-button.png" alt='download-button.png' width={300} height={300} className="mx-auto md:mx-0"/>
                     </Link>
                 </div>
                 <div className="text-center md:w-1/2 md:text-left">
