@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 const experiences = [
   { experience: "HTML" },
@@ -10,30 +9,26 @@ const experiences = [
   { experience: "Dart" },
   { experience: "PHP" },
   { experience: "Java" },
-  { experience: "C" },
   { experience: "MySQL" },
   { experience: "PostgreSQL" },
   { experience: "Firebase" },
-  { experience: "Docker" },
-  { experience: "PuTTY" },
-  { experience: "VS Code" },
+  { experience: "Visual Studio Code" },
   { experience: "Android Studio" },
   { experience: "Figma" },
   { experience: "RESTful API" },
   { experience: "Git" },
   { experience: "Github" },
+  { experience: "Azure DevOps" },
   { experience: "Flutter" },
   { experience: "Next.js" },
   { experience: "Node.js" },
   { experience: "React.js" },
-  { experience: "Tailwind" },
   { experience: "Bootstrap" },
+  { experience: "Tailwind" },
+  { experience: "ORM" },
   { experience: "Web 3.0" },
   { experience: "Blockchain" },
   { experience: "R3 Corda" },
-  { experience: "Solidity" },
-  { experience: "Ethereum" },
-  { experience: "Smart Contracts" },
 ];
 
 const learning = [
@@ -44,18 +39,16 @@ const learning = [
   { learning: "AI" },
   { learning: "Laravel" },
   { learning: "Django" },
+  { learning: "Nuxt.js" },
+  { learning: "Svelte.js" },
   { learning: "Android & iOS Development" },
-  { learning: "HarmonyOS" },
   { learning: "ASP.NET" },
-  { learning: "ASP.NETCORE" },
   { learning: "Spring boot" },
-  { learning: "ORM" },
   { learning: "Jira" },
   { learning: "Kubernetes" },
   { learning: "GCP" },
   { learning: "AWS" },
-  { learning: "Azure" },
-  { learning: "DigitalOcean" },
+  { learning: "Docker" },
 ];
 
 const About_Section = () => {
@@ -72,49 +65,43 @@ const About_Section = () => {
               Get to know me!
             </h1>
             <p className="text-justify">
-              Assalamualaikum hi, my name is Muhamad Syamim Irfan, an{""}
+              Assalamualaikum, I am Muhamad Syamim Irfan, a{" "}
               <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                {" "}
-                {"exceptionally ambitious"}{" "}
-              </span>
-              ,
-              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                {" "}
-                {"self-motivated"}{" "}
-              </span>
-              , and
-              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                {" "}
-                {"driven"}{" "}
-              </span>
-              software engineer hailing from Malaysia
-            </p>
-            <br />
-            <p className="text-justify">
-              I graduated from Tun Hussein Onn University of Malaysia {"(UTHM)"}
-              , Batu Pahat, Parit Raja in 2024 with a Bachelor of Computer
-              Science in Software Engineer Majors. Now, I am working in the
-              field ever since as a fresh graduate .
-            </p>
-            <br />
-            <p className="text-justify">
-              I cultivate a diverse set of hobbies and passions that
-              consistently captivate my time. From delving into the realms of
-              gaming, coding, and watching movies and travelling, each pursuit
-              serves as a means to enhance my skills and personal development. I
-              am always seeking new experiences and love to keep myself engaged
-              and learning new things.
-            </p>
-            <br />
-            <p className="text-justify">
-              I am all about{" "}
-              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-                NEVER GIVE UP
+                results-oriented
               </span>{" "}
-              on personal growth. Technology is my jam, and I love pushing the
-              limits just to see what is possible. Can{"'"}t wait to see where
-              my career winds up, and I am totally down for whatever cool
-              opportunities come my way!
+              Full Stack Developer and Software Engineer from Malaysia with over
+              2 years of hands-on experience in designing, developing, and
+              maintaining software applications.
+            </p>
+            <br />
+            <p className="text-justify">
+              I graduated from Tun Hussein Onn University of Malaysia {"(UTHM)"}{" "}
+              in 2024 with a Bachelor of Computer Science in Software
+              Engineering. Proficient in multiple programming languages and
+              frameworks, I have contributed to building{" "}
+              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                scalable and efficient solutions
+              </span>{" "}
+              while collaborating closely with cross-functional teams.
+            </p>
+            <br />
+            <p className="text-justify">
+              With strong communication skills and a{" "}
+              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                problem-solving mindset
+              </span>
+              , I actively participate in delivering high-quality features and
+              improvements.
+            </p>
+            <br />
+            <p className="text-justify">
+              Committed to{" "}
+              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+                continuous learning
+              </span>{" "}
+              and staying up to date with the latest technology trends, I am
+              eager to further grow my career and make meaningful contributions
+              to impactful and innovative projects.
             </p>
             <br />
             <h1 className=" text-center text-2xl font-bold mb-6 md:text-left">
@@ -124,13 +111,29 @@ const About_Section = () => {
               href="https://drive.google.com/file/d/1p6XFhUO93IHM7T3o4NjYeQG3tIEd2pm8/view?usp=sharing"
               target="_blank"
             >
-              <Image
-                src="/assets/download-button.png"
-                alt="download-button.png"
-                width={300}
-                height={300}
-                className="mx-auto md:mx-0"
-              />
+              <span className="mx-auto md:mx-0 flex w-fit items-center gap-4 rounded-lg px-8 py-3 text-left transition-colors bg-gray-900 text-white hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="h-7 w-7 shrink-0"
+                  aria-hidden="true"
+                >
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                  <polyline points="7 10 12 15 17 10" />
+                  <line x1="12" y1="15" x2="12" y2="3" />
+                </svg>
+                <span className="flex flex-col leading-tight">
+                  <span className="font-semibold">Download Resume</span>
+                  <span className="text-sm opacity-80">
+                    Muhamad Syamim Irfan
+                  </span>
+                </span>
+              </span>
             </Link>
             <br />
             {/* <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
