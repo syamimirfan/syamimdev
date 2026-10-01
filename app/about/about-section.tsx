@@ -108,7 +108,7 @@ const About_Section = () => {
               Resume
             </h1>
             <Link
-              href="https://drive.google.com/file/d/1p6XFhUO93IHM7T3o4NjYeQG3tIEd2pm8/view?usp=sharing"
+              href="https://drive.google.com/file/d/1foN1EJlulmtgcO5FzLUdRhcc7ZbxZokn/view?usp=sharing"
               target="_blank"
             >
               <span className="mx-auto md:mx-0 flex w-fit items-center gap-4 rounded-lg px-8 py-3 text-left transition-colors bg-gray-900 text-white hover:bg-gray-700 dark:bg-white dark:text-gray-900 dark:hover:bg-gray-200">
@@ -123,12 +123,11 @@ const About_Section = () => {
                   className="h-7 w-7 shrink-0"
                   aria-hidden="true"
                 >
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                  <polyline points="7 10 12 15 17 10" />
-                  <line x1="12" y1="15" x2="12" y2="3" />
+                  <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z" />
+                  <circle cx="12" cy="12" r="3" />
                 </svg>
                 <span className="flex flex-col leading-tight">
-                  <span className="font-semibold">Download Resume</span>
+                  <span className="font-semibold">View Resume</span>
                   <span className="text-sm opacity-80">
                     Muhamad Syamim Irfan
                   </span>
